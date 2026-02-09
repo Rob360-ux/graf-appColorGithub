@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+#visualizacion {
+    transition: background-color 0.2s ease-in-out;
+}
+
+input[type="number"] {
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#hexCode {
+    letter-spacing: 2px;
+}
